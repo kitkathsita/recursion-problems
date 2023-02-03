@@ -1,28 +1,3 @@
-/* function mergeSort(a) {
-  let array = a
-  console.log(array)
-  let len = array.length
-  console.log(len)
-  if (len===1){
-    return [array[0]]
-  } else if (len===2){
-    if (array[0]<=array[1]) {
-      let array_ = [array[0], array[1]]
-      return array_
-    } else {
-      console.log('hola')
-      let array_ = [array[1], array[0]]
-      console.log((array_))
-      return array_
-    }
-  } else {
-    if (len%2===0) {
-      let array1 = array.splice(len/2)
-      return mergeSort(array1)
-    }
-  }
-} */
-
 function mergeSort(array) {
   let len = array.length
   if (len===1) {
